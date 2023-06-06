@@ -1,0 +1,457 @@
+.container-fluid {
+  overflow: hidden;
+}
+/* nav */
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+/* nav */
+/* jumbotron */
+#jumbotron {
+  width: 100%;
+}
+.satu {
+  background-image: url(DSCF0303.jpg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding-left: 2em;
+}
+.dua {
+  background-image: url(DSCF0253.jpg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding-left: 2em;
+}
+.tiga {
+  background-image: url(DSCF0396.jpg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding-left: 2em;
+}
+.empat {
+  background-image: url(DSCF0514.jpg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding-left: 2em;
+}
+
+/* jumbotron */
+
+/* newcollect */
+#newcollect h1 {
+  max-width: 25rem;
+}
+#newcollect ul {
+  list-style: none;
+}
+.text-top {
+  position: absolute;
+  top: 15px;
+  bottom: 20px;
+  left: 113px;
+  right: 0px;
+}
+.text-bottom {
+  position: absolute;
+  top: 279px;
+  bottom: 0px;
+  left: 0px;
+  right: 379px;
+}
+#newcollect .h4 {
+  font-size: x-large;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#newcollect .active {
+  font-size: xx-large;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: bolder;
+}
+#newcollect .h4:hover {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+/* newcollect */
+
+/* bestseller */
+
+#bestseller img {
+  height: 475px;
+  width: 450px;
+  transition: 0.5s;
+}
+figure {
+  height: 475px;
+  overflow: hidden;
+}
+.katalog:hover img {
+  transform: scale(1.3);
+  filter: blur(3px);
+}
+.detail-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.5s;
+}
+.katalog:hover .detail-button {
+  opacity: 1;
+}
+#modal-lt img {
+  height: 300px;
+  width: 250px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#modal-ct img {
+  height: 300px;
+  width: 250px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#modal-rt img {
+  height: 300px;
+  width: 250px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#modal-lb img {
+  height: 300px;
+  width: 250px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#modal-cb img {
+  height: 300px;
+  width: 250px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#modal-rb img {
+  height: 300px;
+  width: 250px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* bestseller */
+
+/* featured */
+
+#featured h1 {
+  max-width: 25rem;
+}
+.tl {
+  height: 300px;
+  padding: 0;
+}
+.tl img {
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+  transition: 0.5s;
+}
+.tl h1 {
+  position: absolute;
+  color: white;
+  margin-left: 0.5em;
+  transition: 0.5s;
+}
+.tl:hover img {
+  filter: brightness(100%);
+}
+.tl:hover h1 {
+  color: black;
+}
+
+.tr {
+  padding: 0;
+  height: 300px;
+}
+.tr img {
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+  transition: 0.5s;
+}
+.tr h1 {
+  position: absolute;
+  color: white;
+  margin-left: 0.5em;
+  transition: 0.5s;
+}
+.tr:hover img {
+  filter: brightness(100%);
+}
+.tr:hover h1 {
+  color: black;
+}
+.bt {
+  padding: 0;
+  height: 300px;
+}
+.bt img {
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+  transition: 0.5s;
+}
+.bt h1 {
+  position: absolute;
+  color: white;
+  margin-right: 0.5em;
+  transition: 0.5s;
+}
+.bt:hover img {
+  filter: brightness(100%);
+}
+.bt:hover h1 {
+  color: black;
+}
+/* featured */
+
+/* fashiontrend */
+#fashionupdate img {
+  height: 250px;
+  width: 600px;
+}
+
+/* fashiontrend */
+
+/* fashioncard */
+
+#fashioncard img {
+  height: 350px;
+  width: 350px;
+}
+#fashioncard p {
+  max-width: 350px;
+}
+.card {
+  box-shadow: 2px;
+}
+/* fashioncard */
+
+/* review */
+#review p {
+  max-width: 600px;
+}
+.t {
+  height: 450px;
+  width: 400px;
+}
+.b {
+  height: 225px;
+  width: 400px;
+}
+.cb {
+  height: 450px;
+  width: 400px;
+}
+.ct {
+  height: 225px;
+  width: 400px;
+}
+.ava {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+.review-img {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+}
+/* review */
+/* footer */
+#footer {
+  height: 400px;
+  background-color: #333333;
+}
+.img-ico {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+}
+.img-logo {
+  height: 100px;
+  width: 400px;
+  object-fit: cover;
+}
+/* footer */
+
+/* responsive */
+@media screen and (max-width: 480px) {
+  /* jumbotron */
+  #jumbotron h1 {
+    font-size: 20px;
+    max-width: 100%;
+  }
+  /* jumbotron */
+  /* newcollect */
+  #newcollect p {
+    font-size: x-small;
+  }
+  #newcollect h1 {
+    font-size: medium;
+  }
+  #newcollect .h4 {
+    font-size: small;
+  }
+  #newcollect img {
+    padding-right: 2em;
+  }
+  #newcollect .left {
+    margin-top: 7em;
+  }
+  /* newcollect */
+  /* bestseller */
+  #bestseller p {
+    font-size: x-small;
+  }
+  #bestseller h1 {
+    font-size: medium;
+  }
+  #bestseller figure {
+    height: 150px;
+  }
+  #bestseller img {
+    object-fit: cover;
+    height: 150px;
+  }
+
+  /* bestseller */
+  /* featured */
+  #featured p {
+    font-size: x-small;
+  }
+  #featured h1 {
+    font-size: medium;
+  }
+  /* featured */
+  /* fashionupdate */
+  #fashionupdate .capt {
+    font-size: x-small;
+  }
+  #fashionupdate .title {
+    font-size: medium;
+  }
+  #fashionupdate img {
+    height: 100px;
+  }
+  #fashionupdate .sub {
+    font-size: xx-small;
+  }
+  /* fashionupdate */
+  /* fashioncard */
+  #fashioncard img {
+    height: 150px;
+  }
+  #fashioncard .title {
+    font-size: medium;
+  }
+  #fashioncard .capt {
+    font-size: x-small;
+  }
+  /* fashioncard */
+  /* review */
+  .wrap {
+    margin-left: -15px;
+    margin-top: 1.5em;
+  }
+  #review .title {
+    font-size: medium;
+  }
+  #review .capt {
+    font-size: x-small;
+  }
+  #review .t {
+    height: 320px;
+    width: 300px;
+  }
+  .ava {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+  }
+  .review-img {
+    height: 100px;
+    width: 260px;
+    object-fit: cover;
+    margin-top: -10px;
+  }
+  #review h6 {
+    font-size: small;
+  }
+  .card-title {
+    font-size: small;
+    margin-bottom: -10px;
+  }
+  i {
+    font-size: x-small;
+  }
+  #review .b {
+    height: 320px;
+    width: 300px;
+  }
+
+  /* review */
+  /* footer */
+  #footer {
+    height: 600px;
+    background-color: #333333;
+  }
+  .img-ico {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+  }
+  .img-logo {
+    height: 50px;
+    width: 200px;
+    object-fit: cover;
+  }
+  #footer .capt {
+    font-size: xx-small;
+  }
+  /* footer */
+}
